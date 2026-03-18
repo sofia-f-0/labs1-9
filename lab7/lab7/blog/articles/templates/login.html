@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вход</title>
+    <link rel="stylesheet" href="{% static 'css/article.css' %}">
+</head>
+<body class="login">
+    <div class="header">
+        <img src="{% static 'img/dpb-logo.png' %}" alt="Логотип">
+    </div>
+    <div class="content">
+        <h1>Вход</h1>
+        <form method="POST" class="auth-form">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="username">Имя пользователя:</label>
+                <input type="text" name="username" id="username" value="{{ data.username }}" placeholder="Введите логин">
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" name="password" id="password" placeholder="Введите пароль">
+            </div>
+            {% if errors.auth %}<div class="error-message">{{ errors.auth }}</div>{% endif %}
+            <button type="submit" class="submit-btn">Войти</button>
+        </form>
+        <p class="auth-link">Нет аккаунта? <a href="{% url 'register' %}">Зарегистрируйтесь</a></p>
+    </div>
+</body>
+</html>
