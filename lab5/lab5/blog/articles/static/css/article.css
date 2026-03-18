@@ -1,0 +1,203 @@
+body {
+    background: #1abc9c;         
+    font-family: Tahoma, Arial, sans-serif; 
+    color: #333;                
+    margin: 0;
+    padding: 0;
+}
+
+.header img {
+    display: block;     
+    width: 318px;              
+    margin: 20px auto;         
+}
+
+.content {
+    width: 960px;              
+    margin: 0 auto;            
+    background: #fff;           
+    padding: 30px;             
+    border-radius: 10px;         
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+}
+
+.archive {
+    width: 960px;                 
+    margin: 0 auto;           
+}
+
+
+.one-post {
+    margin-bottom: 40px;        
+    padding-bottom: 20px;         
+    border-bottom: 1px solid #ccc;
+}
+
+.post-title a {
+    color: #ffffff;             
+    text-decoration: none;     
+    font-size: 28px;
+    transition: color 0.3s;
+}
+
+.post-title a:hover {
+    text-decoration: underline;    
+    color: #ecf0f1;
+}
+
+
+.article-info {
+    overflow: hidden;       
+    margin: 10px 0;          
+}
+
+.article-author {
+    width: 50%;             
+    float: left;     
+    font-weight: bold;
+}
+
+.article-created-date {
+    text-align: right;         
+    width: 50%;
+    float: left;
+    color: #7f8c8d;       
+}
+
+.article-text {
+    font-size: 18px;          
+    line-height: 1.6;          
+    clear: both;                 
+    margin-top: 15px;
+}
+
+.article h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 42px;              
+    margin: 30px 0;               
+    color: #2c3e50;
+}
+
+.article .article-info {
+    margin-bottom: 30px;         
+}
+
+.article .article-text {
+    font-size: 22px;               
+    margin-bottom: 40px;            
+}
+
+.article a {
+    color: #ffffff;               
+    font-size: 18px;
+    text-decoration: none;
+    border: 2px solid #ffffff;   
+    padding: 10px 20px;           
+    border-radius: 5px;           
+    display: inline-block;         
+    transition: all 0.3s;
+}
+
+.article a:hover {
+    background-color: #ffffff;     
+    color: #1abc9c;             
+
+
+.create-article .content {
+    background: #fff;      
+    color: #333;
+}
+
+.create-article h1 {
+    font-size: 32px;
+    margin-top: 0;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.post-form .form-group {
+    margin-bottom: 20px;
+}
+
+.post-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #34495e;
+}
+
+.post-form input[type="text"],
+.post-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.post-form textarea {
+    resize: vertical;           
+    min-height: 150px;
+}
+
+.submit-btn {
+    background: #1abc9c;         
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: block;
+    margin: 0 auto;    
+}
+
+.submit-btn:hover {
+    background: #16a085; 
+}
+
+.error {
+    background: #e74c3c;     
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.create-button {
+    text-align: right;        
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-create {
+    display: inline-block;
+    background-color: #2ecc71;  
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-create:hover {
+    background-color: #27ae60;  
+    text-decoration: none;
+}
