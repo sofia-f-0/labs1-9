@@ -1,0 +1,90 @@
+
+
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+}
+
+.header img {
+    display: block;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.one-post {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post-title a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.post-title a:hover {
+    text-decoration: underline;
+}
+
+.article-info {
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+.article-created-date {
+    text-align: right;
+}
+
+.article-text {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.article h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 42px;
+    margin: 30px 0;
+}
+
+.article .article-info {
+    margin-bottom: 30px;
+}
+
+.article .article-text {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.back-link {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.back-link:hover {
+    background-color: #ffffff;
+    color: #1abc9c;
+}
